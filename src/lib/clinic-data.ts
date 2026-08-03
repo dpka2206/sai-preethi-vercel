@@ -21,7 +21,7 @@ export const services: ServiceData[] = [
     id: "paediatric-dermatology",
     name: "Paediatric Dermatology",
     shortDescription: "Expert skin care for children, from newborns to teens. We manage conditions like Eczema and birthmark with thorough diagnostic approach",
-    image: "/images/services/paediatric_dermatology_care.png",
+    image: "/images/services/paediatric-care-indian.png",
     pageHeadline: "Expert Skin Care for Children — From Newborns to Teens",
     subheading: "Because young skin deserves specialised attention",
     intro: [
@@ -91,7 +91,7 @@ export const services: ServiceData[] = [
     id: "hyperhidrosis",
     name: "Hyperhidrosis Treatment",
     shortDescription: "Advanced treatment for excessive sweating. Utilizing targeted Botulinum Toxin injections, we provide significant reduction in sweating.",
-    image: "/images/services/hyperhidrosis_1778608464584.png",
+    image: "/images/services/hyperhidrosis-indian.png",
     pageHeadline: "Living with Excessive Sweating? There Is an Effective Solution.",
     subheading: "Advanced treatment for hyperhidrosis — so you can live without limits",
     intro: [
@@ -276,8 +276,8 @@ export const services: ServiceData[] = [
   {
     id: "anti-ageing",
     name: "Anti-Ageing & Rejuvenation",
-    shortDescription: "Science-backed treatments to restore youthful vitality. We combine regenerative medicine with injectables like Botox, Profhilo, and HIFU.",
-    image: "/images/services/aesthetic_treatment_laser.png",
+    shortDescription: "Science-backed treatments to restore youthful vitality. We combine regenerative medicine with injectables like Botox, fillers, and HIFU.",
+    image: "/images/services/aesthetic-dermatology-indian.png",
     pageHeadline: "Age on Your Own Terms — Advanced Anti-Ageing & Skin Rejuvenation",
     subheading: "Science-backed treatments to restore radiance, firmness, and youthful vitality",
     intro: [
@@ -288,8 +288,7 @@ export const services: ServiceData[] = [
         title: "Injectables & Volumisers",
         list: [
           { title: "Botulinum Toxin (Botox)", text: "Relaxes dynamic wrinkles to restore a refreshed, natural appearance" },
-          { title: "Dermal Fillers (Hyaluronic Acid)", text: "Restores lost facial volume and defines contours" },
-          { title: "Profhilo", text: "Injectable skin remodelling that hydrates deeply and stimulates collagen and elastin production" }
+          { title: "Dermal Fillers (Hyaluronic Acid)", text: "Restores lost facial volume and defines contours" }
         ]
       },
       {

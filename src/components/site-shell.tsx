@@ -30,10 +30,10 @@ export function SiteNav() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/85 backdrop-blur-md soft-shadow" : "bg-background/70 backdrop-blur-sm"}`}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/images/logo.png?v=2" alt="Logo" className="h-10 w-auto object-contain" />
+          <img src="/images/logo.png?v=2" alt="Logo" className="h-14 w-auto object-contain" />
           <div className="flex flex-col leading-tight">
-            <span className="font-serif text-xl font-bold tracking-tight text-foreground">Dr. Sai Preethi</span>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-muted-foreground">Skin & Aesthetic Clinic</span>
+            <span className="font-serif text-2xl font-bold tracking-tight text-foreground">Dr. Sai Preethi</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-muted-foreground">Skin & Aesthetic Clinic</span>
           </div>
         </Link>
         <nav className="hidden items-center gap-9 md:flex">
@@ -78,9 +78,9 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-12 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col">
           <div className="flex items-center gap-3.5 mb-5">
-            <img src="/images/logo.png?v=2" alt="Logo" className="h-12 w-auto object-contain" />
+            <img src="/images/logo.png?v=2" alt="Logo" className="h-14 w-auto object-contain" />
             <div className="flex flex-col leading-tight">
-              <p className="font-serif text-2xl font-bold text-foreground">Dr. Sai Preethi</p>
+              <p className="font-serif text-3xl font-bold text-foreground">Dr. Sai Preethi</p>
               <p className="mt-1 text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground">Skin & Aesthetic Clinic</p>
             </div>
           </div>

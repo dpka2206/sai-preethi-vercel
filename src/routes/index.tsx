@@ -67,10 +67,10 @@ function Nav() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#top" className="flex items-center gap-3" aria-label="Home">
-          <img src="/images/logo.png?v=2" alt="Logo" className="h-10 w-auto object-contain" />
+          <img src="/images/logo.png?v=2" alt="Logo" className="h-14 w-auto object-contain" />
           <div className="flex flex-col leading-tight">
-            <span className="font-serif text-xl font-bold tracking-tight text-foreground">Dr. Sai Preethi</span>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-muted-foreground">
+            <span className="font-serif text-2xl font-bold tracking-tight text-foreground">Dr. Sai Preethi</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-muted-foreground">
               Skin & Aesthetic Clinic
             </span>
           </div>
@@ -175,9 +175,9 @@ function Hero() {
     },
     {
       id: "aesthetic",
-      title: "Aesthetic Artistry",
+      title: "Aesthetic Dermatology",
       subtitle: "Advanced regenerative solutions for skin, hair, and structural volume.",
-      img: "/images/services/aesthetic_treatment_laser.png",
+      img: "/images/services/aesthetic-dermatology-indian.png",
       imgClass: "object-cover",
       overlayColor: "from-black/90 via-black/50 to-black/10",
       servicesList: ["PRP & GFC Hair Growth", "Botulinum Toxin & Fillers", "Fractional CO₂ Laser Resurfacing", "Face Contouring Procedures"]
@@ -186,7 +186,7 @@ function Hero() {
       id: "paediatric",
       title: "Paediatric Care",
       subtitle: "Specialised and gentle clinical diagnostics for infants, children, and teens.",
-      img: "/images/services/paediatric_dermatology_care.png",
+      img: "/images/services/paediatric-care-indian.png",
       imgClass: "object-cover",
       overlayColor: "from-black/90 via-black/50 to-black/10",
       servicesList: ["Paediatric Eczema Care", "Birthmark Management", "Infections & Genodermatoses", "Thorough Diagnostic Approach"]
@@ -404,7 +404,7 @@ function SectionHead({ label, title, sub }: { label: string; title: string; sub?
 function Why() {
   const ref = useReveal();
   const items = [
-    { n: "01", Icon: Microscope, t: "Diagnosis-First Approach", d: "Every treatment plan starts with accurate diagnosis using dermoscopy, biopsy, and genetic testing and more." },
+    { n: "01", Icon: Microscope, t: "Diagnosis-First Approach", d: "Every treatment plan starts with accurate diagnosis using dermoscopy, biopsy, genetic testing and more wherever required." },
     { n: "02", Icon: Syringe, t: "Advanced Treatment Access", d: "Biologics, exosome therapy, HIFU, fractional CO₂ lasers, JAK inhibitors, and more." },
     { n: "03", Icon: Baby, t: "Expert Care for Every Age", d: "From newborns with skin conditions to adults seeking skin rejuvenation — specialised care at every life stage." },
     { n: "04", Icon: MapPin, t: "Globally Trained", d: "World-class dermatological care, tailored for Indian skin" },
@@ -538,7 +538,7 @@ function About() {
           <p className="text-xs uppercase tracking-[0.25em] text-primary">About</p>
           <h2 className="mt-4 font-serif text-4xl text-foreground md:text-5xl">Meet Dr. Sai Preethi</h2>
           <p className="mt-3 text-base text-muted-foreground italic">
-            Dermatologist, Aesthetic Dermatologist, Paediatric Dermatologist, & Dermato Surgeon
+            MD Dermatologist
           </p>
           <p className="mt-6 text-base leading-relaxed text-foreground/80">
             Dr. Sai Preethi is a highly qualified dermatologist and a consultant at the prestigious Sri Ramachandra University. Her confident approach is the result of comprehensive exposure to complex dermatological medicine, a deep commitment to excellent patient care, and a strong orientation towards research — values she has imbibed from this renowned centre.
@@ -567,14 +567,12 @@ const treatmentTabs: Record<string, [string, string][]> = {
     ["Exosome Therapy", "Cellular signalling for regeneration"],
     ["PDRN", "Salmon DNA polynucleotide repair"],
     ["Skin Boosters", "Deep hydration & glow"],
-    ["Profhilo", "Bio-remodelling hyaluronic acid"],
+    ["Botox & Fillers", "Wrinkle relaxation and facial volumising"],
   ],
   "Lasers & Energy": [
     ["Fractional CO₂ Laser", "Resurfacing for scars & texture"],
     ["Q-switched Nd:YAG", "Pigmentation & tattoo removal"],
     ["Picosecond Laser", "Stubborn pigment, melasma-safe"],
-    ["Excimer Laser", "Targeted vitiligo & psoriasis"],
-    ["Narrowband UVB", "Phototherapy for chronic conditions"],
     ["HIFU", "Non-surgical lifting & contouring"],
     ["Microneedling RF", "Collagen induction with radiofrequency"],
   ],
@@ -815,9 +813,9 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col">
           <div className="flex items-center gap-3.5 mb-5">
-            <img src="/images/logo.png?v=2" alt="Logo" className="h-12 w-auto object-contain" />
+            <img src="/images/logo.png?v=2" alt="Logo" className="h-14 w-auto object-contain" />
             <div className="flex flex-col leading-tight">
-              <p className="font-serif text-2xl font-bold text-foreground">Dr. Sai Preethi</p>
+              <p className="font-serif text-3xl font-bold text-foreground">Dr. Sai Preethi</p>
               <p className="mt-1 text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground">Skin & Aesthetic Clinic</p>
             </div>
           </div>
