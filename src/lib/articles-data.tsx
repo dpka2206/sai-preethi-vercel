@@ -139,5 +139,398 @@ export const articles: ArticleData[] = [
         </p>
       </>
     )
+  },
+  {
+    id: "why-acne-happens-causes-myths-treatments",
+    category: "Acne",
+    title: "Why Acne Happens: Causes, Myths & Treatments",
+    subtitle: "What's actually happening beneath the surface — and what helps.",
+    image: "/images/articles/acne-causes-myths-hero.png",
+    date: "August 3, 2026",
+    readTime: "6 min read",
+    content: (
+      <>
+        <Section heading="Acne is common. Misunderstanding it is even more common.">
+          <p>
+            Acne is one of the most common skin conditions in the world, affecting people well beyond their teenage years — yet it remains one of the most misunderstood. Here's what's actually happening beneath the surface, and what helps.
+          </p>
+        </Section>
+
+        <Section heading="What causes acne, really">
+          <p>
+            Acne develops through a combination of four main factors working together:
+          </p>
+
+          {[
+            ["1. Excess oil (sebum) production", "Hormonal signals, especially androgens, increase oil gland activity — particularly during puberty, before periods, or with conditions like PCOS."],
+            ["2. Clogged pores", "Dead skin cells that don't shed properly mix with oil and block the follicle opening, forming the basis of a comedone — a blackhead or whitehead."],
+            ["3. Bacteria", "Cutibacterium acnes, a bacteria naturally present on skin, multiplies inside clogged, oil-rich follicles, contributing to inflammation."],
+            ["4. Inflammation", "The body's immune response to the clogged, bacteria-filled follicle produces the redness, swelling, and pain associated with inflammatory acne — papules, pustules, and cysts."],
+          ].map(([t, d]) => (
+            <div key={t} className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+              <p className="font-serif text-lg text-foreground">{t}</p>
+              <p className="mt-2 text-base text-foreground/80">{d}</p>
+            </div>
+          ))}
+
+          <p>
+            Genetics, hormones, stress, certain medications, and some cosmetic products can all influence how strongly these four factors act.
+          </p>
+        </Section>
+
+        <Section heading="Common acne myths">
+          {[
+            ["Myth: Acne is caused by poor hygiene", "Over-washing doesn't clear acne — it strips the skin's barrier and often makes inflammation worse. Acne is not caused by dirty skin."],
+            ["Myth: Only teenagers get acne", "Adult acne is extremely common, particularly in women, often linked to hormonal fluctuations, stress, or underlying conditions like PCOS."],
+            ["Myth: Chocolate and greasy food cause breakouts", "Diet's role in acne is more nuanced. High-glycemic diets and, for some people, dairy have shown links to acne severity in research — but chocolate itself has not been clearly proven as a direct cause."],
+            ["Myth: You should let acne \"run its course\" without treatment", "Untreated inflammatory acne carries a real risk of permanent scarring and post-inflammatory pigmentation. Early, appropriate treatment reduces this risk significantly."],
+            ["Myth: Popping a pimple speeds up healing", "Popping pushes bacteria and inflammation deeper into the skin, increasing the risk of scarring and spreading the breakout rather than resolving it."],
+            ["Myth: Natural or \"chemical-free\" products are safer for acne-prone skin", "Many natural ingredients (like essential oils) are more likely to irritate acne-prone skin than well-studied active ingredients like salicylic acid or benzoyl peroxide."],
+          ].map(([t, d]) => (
+            <div key={t} className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+              <p className="font-serif text-lg text-foreground">{t}</p>
+              <p className="mt-2 text-base text-foreground/80">{d}</p>
+            </div>
+          ))}
+        </Section>
+
+        <Section heading="Treatment options">
+          <p>
+            Effective acne care is rarely one product. It is about matching the right tools to the factors driving your breakouts.
+          </p>
+
+          {[
+            ["Topical treatments", "Benzoyl peroxide, salicylic acid, and topical retinoids remain first-line treatments for mild to moderate acne, targeting clogged pores, bacteria, and inflammation directly."],
+            ["Oral medications", "For moderate to severe or hormonal acne, options include oral antibiotics for short-term inflammation control, hormonal treatments (like certain birth control pills or spironolactone) for hormonally driven acne, and isotretinoin for severe, scarring, or treatment-resistant acne."],
+            ["In-clinic procedures", "Chemical peels, certain laser and light therapies, and extraction of stubborn comedones can complement a daily skincare routine — especially for acne that isn't fully responding to topical treatment alone."],
+            ["Scar management", "Once active acne is under control, treatments like microneedling, certain lasers, and chemical peels can address resulting scarring and pigmentation."],
+          ].map(([t, d]) => (
+            <div key={t} className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+              <p className="font-serif text-lg text-foreground">{t}</p>
+              <p className="mt-2 text-base text-foreground/80">{d}</p>
+            </div>
+          ))}
+        </Section>
+
+        <Section heading="The bigger cultural shift">
+          <p>
+            One encouraging shift is the move away from "hiding" acne toward understanding and destigmatizing it. Acne is a medical condition influenced by genetics and hormones — not a personal failing or a hygiene issue. Treating it effectively starts with understanding what's actually causing it in your specific case.
+          </p>
+        </Section>
+
+        <Section heading="When to see a dermatologist">
+          <p>
+            If over-the-counter treatments haven't improved your skin after eight to twelve weeks, if breakouts are painful, cystic, or leaving marks, or if you suspect a hormonal cause, a dermatologist can identify exactly which of the four underlying factors is driving your acne — and build a treatment plan targeted to it, rather than more trial and error.
+          </p>
+          <p className="font-serif text-xl italic text-foreground">
+            Struggling with persistent or scarring acne? Book a consultation for a personalized treatment plan built around your skin's specific triggers.
+          </p>
+        </Section>
+
+        <p className="mt-14 border-l-4 border-sage pl-5 font-serif text-xl italic text-foreground">
+          Acne is a medical condition — not a personal failing. Understanding the cause is the first step toward clearer, healthier skin.
+        </p>
+      </>
+    )
+  },
+  {
+    id: "everything-you-need-to-know-about-scalp-health",
+    category: "Hair & Scalp",
+    title: "Everything You Need to Know About Scalp Health",
+    subtitle: "Healthy hair starts beneath the strands — at the scalp.",
+    image: "/images/articles/scalp-health-hero.png",
+    date: "August 3, 2026",
+    readTime: "5 min read",
+    content: (
+      <>
+        <Section heading="Hair care starts where the hair grows">
+          <p>
+            For years, hair care meant caring for the hair shaft — the strands themselves. But healthy hair actually starts beneath it, at the scalp. Scalp-first hair care is one of the biggest shifts in the industry, with the scalp finally being treated with the same rigor people apply to their facial skin.
+          </p>
+        </Section>
+
+        <Section heading="Why the scalp matters so much">
+          <p>
+            The scalp is skin — it has the same layers, the same barrier function, and the same oil (sebum) and microbiome balance as facial skin. Every hair follicle grows out of it, which means the health of the scalp directly determines the health, thickness, and growth rate of the hair.
+          </p>
+          <p>
+            An imbalanced scalp — too oily, too dry, inflamed, or clogged — creates a poor environment for follicles, often showing up as excess shedding, slowed growth, itchiness, flaking, or dullness in the hair itself.
+          </p>
+        </Section>
+
+        <Section heading="Common scalp issues">
+          {[
+            ["Dandruff and seborrheic dermatitis", "Flaking and itching caused by an overgrowth of yeast (Malassezia) on the scalp, often combined with excess oil production."],
+            ["Scalp acne (folliculitis)", "Clogged follicles leading to small, tender bumps — often from product buildup, sweat, or friction from helmets and tight hairstyles."],
+            ["Excess oil (seborrhea)", "Overactive sebaceous glands leave hair looking greasy quickly after washing, and can contribute to flaking and irritation."],
+            ["Dry, flaky scalp", "Often mistaken for dandruff, this is usually barrier-related dryness rather than a yeast overgrowth — and needs hydration rather than anti-fungal treatment."],
+            ["Scalp sensitivity and inflammation", "Redness, tightness, or a burning sensation, often triggered by harsh sulfates, styling product buildup, or over-washing."],
+          ].map(([t, d]) => (
+            <div key={t} className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+              <p className="font-serif text-lg text-foreground">{t}</p>
+              <p className="mt-2 text-base text-foreground/80">{d}</p>
+            </div>
+          ))}
+        </Section>
+
+        <Section heading="Building a scalp-first routine">
+          <ul className="space-y-3 pl-0">
+            {[
+              "Treat the scalp, not just the hair. Choose shampoo based on your scalp's needs — oily, dry, flaky, or sensitive — rather than your hair type alone.",
+              "Exfoliate gently, and not too often. Scalp scrubs or exfoliating shampoos once every one to two weeks can clear buildup from oil, dead skin, and styling products. Over-exfoliating the scalp causes the same irritation it does on facial skin.",
+              "Don't skip scalp serums. Just as facial serums target specific concerns, scalp serums with ingredients like niacinamide, salicylic acid, or peptides can target oil control, flaking, or follicle stimulation.",
+              "Massage regularly. Scalp massage — with fingers or a scalp massager — improves circulation to the follicles and can be done daily during washing or with oil treatments.",
+              "Watch your wash frequency. Both over-washing and under-washing can disrupt the scalp's natural balance. Most people do best somewhere between every other day and twice a week, depending on oil production.",
+              "Protect from the sun. The scalp, especially along the part line, is frequently sunburned — and this can affect both skin health and hair growth.",
+            ].map((p) => (
+              <li key={p} className="flex gap-3">
+                <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                <span>{p}</span>
+              </li>
+            ))}
+          </ul>
+        </Section>
+
+        <Section heading="When to see a specialist">
+          <p>
+            Persistent itching, unusual bald patches, painful bumps, or shedding that feels excessive can point to conditions that need professional diagnosis — from fungal infections to early-stage alopecia. A proper scalp analysis can identify exactly what's happening beneath the surface before it affects the hair long-term.
+          </p>
+          <p className="font-serif text-xl italic text-foreground">
+            Interested in a professional scalp assessment? Our clinic offers detailed scalp analysis to identify the right treatment path for your hair goals.
+          </p>
+        </Section>
+
+        <p className="mt-14 border-l-4 border-sage pl-5 font-serif text-xl italic text-foreground">
+          Healthy hair is grown, not just styled. Caring for the scalp is caring for every strand that follows.
+        </p>
+      </>
+    )
+  },
+  {
+    id: "the-truth-behind-viral-skincare-trends",
+    category: "Skincare",
+    title: "The Truth Behind Viral Skincare Trends",
+    subtitle: "A dermatologist's look at the hacks going viral — and what the science actually says.",
+    image: "/images/articles/viral-skincare-trends-hero.png",
+    date: "August 3, 2026",
+    readTime: "6 min read",
+    content: (
+      <>
+        <Section heading="Not every viral hack is harmless">
+          <p>
+            Every few weeks, a new skincare "hack" takes over social media promising overnight glass skin, instant pore shrinkage, or a cure for acne using items from your kitchen. Some of it is harmless. Some of it can genuinely damage your skin. Here's a dermatologist's-eye look at some of the most viral trends — and what the science actually says.
+          </p>
+        </Section>
+
+        <Section heading="Trend by trend — the claim vs the truth">
+          {[
+            ["Trend: Slugging", "The claim: Coating your face in petroleum jelly overnight locks in hydration for \"glass skin.\" The truth: Petroleum jelly is an occlusive — it doesn't add hydration itself, but it does seal in whatever you've already applied and reduce water loss. It can genuinely help very dry or barrier-compromised skin. It is not suitable for oily or acne-prone skin, where it can trap oil and worsen breakouts."],
+            ["Trend: Lemon juice or baking soda for acne", "The claim: Natural acids and alkaline pastes clear breakouts fast. The truth: This is one of the more dangerous viral trends. Lemon juice is highly acidic and photosensitizing, and can cause chemical burns and dark marks — especially with sun exposure. Baking soda disrupts the skin's natural pH, which is mildly acidic to protect the barrier and control acne-causing bacteria. Neither belongs on the face."],
+            ["Trend: Rice water for \"poreless\" skin", "The claim: Fermented rice water shrinks pores and brightens skin. The truth: Pores don't actually shrink or grow — their appearance changes with oil levels, buildup, and skin elasticity. Rice water may have mild antioxidant content, but there's no solid evidence it meaningfully changes pore size. It's not harmful, but it's not the transformation the trend promises either."],
+            ["Trend: DIY chemical peels at home", "The claim: Household acids can replicate a professional peel. The truth: Professional peels are formulated and applied under controlled concentrations and timing precisely because uneven application, wrong pH, or leaving a peel on too long can cause burns, scarring, and pigmentation issues. This is one trend where DIY carries real risk."],
+            ["Trend: Ice facials / ice rolling", "The claim: Rubbing ice on the face reduces puffiness and \"tightens\" skin instantly. The truth: Cold does constrict blood vessels temporarily, which can reduce puffiness short-term. It does not tighten skin, shrink pores permanently, or replace legitimate skin tightening treatments. Direct ice contact can also cause frostbite-like damage with prolonged use."],
+            ["Trend: 10+ step routines", "The claim: More products, more actives, more results. The truth: This is arguably the most damaging trend of the last several years. Layering multiple actives — retinoids, acids, vitamin C, scrubs — overwhelms the skin's barrier faster than it can repair, leading to redness, sensitivity, and paradoxically worse skin. The current shift in the industry is toward fewer, well-chosen products used consistently."],
+          ].map(([t, d]) => (
+            <div key={t} className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+              <p className="font-serif text-lg text-foreground">{t}</p>
+              <p className="mt-2 text-base text-foreground/80">{d}</p>
+            </div>
+          ))}
+        </Section>
+
+        <Section heading="The common thread">
+          <p>
+            Nearly every viral trend either oversimplifies how skin actually works or borrows a real mechanism and applies it in an unsafe or exaggerated way. The ingredients that consistently perform — sunscreen, retinoids, niacinamide, ceramides, gentle exfoliating acids at the correct concentration — are rarely the ones that go viral, because "use sunscreen every day for years" doesn't make for a dramatic video.
+          </p>
+        </Section>
+
+        <Section heading="Our advice">
+          <p>
+            Before trying the next viral hack, ask three questions:
+          </p>
+          <ul className="space-y-3 pl-0">
+            {[
+              "Is there real clinical research behind this?",
+              "Is it being used at a safe concentration and frequency?",
+              "Is a dermatologist recommending it, or is it just popular?",
+            ].map((p) => (
+              <li key={p} className="flex gap-3">
+                <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                <span>{p}</span>
+              </li>
+            ))}
+          </ul>
+          <p>
+            If the answer to any of these is unclear, it's worth checking with a professional before your skin becomes the test case.
+          </p>
+          <p className="font-serif text-xl italic text-foreground">
+            Not sure if a trend you've seen online is right for your skin? Book a consultation and we'll walk you through what's actually worth trying.
+          </p>
+        </Section>
+
+        <p className="mt-14 border-l-4 border-sage pl-5 font-serif text-xl italic text-foreground">
+          Good skincare is rarely viral. It is consistent, evidence-based, and tailored to your skin — not the algorithm.
+        </p>
+      </>
+    )
+  },
+  {
+    id: "prp-vs-gfc-hair-treatment",
+    category: "Hair Restoration",
+    title: "PRP vs GFC Hair Treatment: Which Is Better?",
+    subtitle: "Both use your own blood to stimulate follicles — but they aren't the same treatment.",
+    image: "/images/articles/prp-gfc-hair-hero.png",
+    date: "August 3, 2026",
+    readTime: "6 min read",
+    content: (
+      <>
+        <Section heading="Two regenerative options, one common goal">
+          <p>
+            Regenerative treatments are one of the fastest-growing categories in hair restoration, and two names come up constantly: PRP and GFC. Both are injectable, both use your own blood, and both aim to stimulate hair follicles — but they aren't the same treatment. Here's how they actually differ.
+          </p>
+        </Section>
+
+        <Section heading="What is PRP (Platelet-Rich Plasma)?">
+          <p>
+            PRP is prepared by drawing a small sample of the patient's blood and spinning it in a centrifuge to concentrate the platelets — the cells responsible for clotting and releasing growth factors. This platelet-rich layer is then injected into the scalp.
+          </p>
+          <p>
+            Platelets release a range of growth factors (like PDGF, VEGF, and TGF-beta) that are believed to stimulate dormant follicles, improve blood supply to the scalp, and extend the hair's growth phase.
+          </p>
+          <div className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+            <p className="font-serif text-lg text-foreground">Pros</p>
+            <ul className="mt-3 space-y-2">
+              {[
+                "Well-established, with more long-term clinical data than newer alternatives",
+                "Relatively simple preparation process",
+                "Widely available",
+              ].map((p) => (
+                <li key={p} className="flex gap-3 text-base text-foreground/80">
+                  <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+            <p className="font-serif text-lg text-foreground">Cons</p>
+            <ul className="mt-3 space-y-2">
+              {[
+                "Contains white blood cells and some plasma components that can trigger mild inflammation in a subset of patients",
+                "Growth factor concentration can vary depending on preparation method and individual blood composition",
+              ].map((p) => (
+                <li key={p} className="flex gap-3 text-base text-foreground/80">
+                  <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Section>
+
+        <Section heading="What is GFC (Growth Factor Concentrate)?">
+          <p>
+            GFC is a step further in processing. Rather than just concentrating platelets, GFC treatments extract and concentrate the growth factors themselves — often using additional processing steps or calcium chloride activation to release growth factors from the platelets before injection, sometimes filtering out red and white blood cells entirely.
+          </p>
+          <p>
+            The result is a more purified, growth-factor-dense injection with fewer of the inflammatory components found in whole PRP.
+          </p>
+          <div className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+            <p className="font-serif text-lg text-foreground">Pros</p>
+            <ul className="mt-3 space-y-2">
+              {[
+                "Higher concentration of active growth factors per session",
+                "Fewer inflammatory components, often meaning less post-procedure redness or discomfort",
+                "Some patients report faster visible improvement in hair density",
+              ].map((p) => (
+                <li key={p} className="flex gap-3 text-base text-foreground/80">
+                  <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-xl border-l-4 border-primary/70 bg-card p-5 soft-shadow">
+            <p className="font-serif text-lg text-foreground">Cons</p>
+            <ul className="mt-3 space-y-2">
+              {[
+                "Requires more specialized processing and equipment",
+                "Fewer long-term studies compared to PRP, since it's a newer technique",
+                "Usually a higher cost per session",
+              ].map((p) => (
+                <li key={p} className="flex gap-3 text-base text-foreground/80">
+                  <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Section>
+
+        <Section heading="PRP vs GFC: side by side">
+          <div className="overflow-x-auto rounded-xl border border-border bg-card soft-shadow">
+            <table className="w-full min-w-[32rem] text-left text-base">
+              <thead>
+                <tr className="border-b border-border bg-muted/50">
+                  <th className="px-5 py-4 font-serif text-lg font-normal text-foreground">Factor</th>
+                  <th className="px-5 py-4 font-serif text-lg font-normal text-foreground">PRP</th>
+                  <th className="px-5 py-4 font-serif text-lg font-normal text-foreground">GFC</th>
+                </tr>
+              </thead>
+              <tbody className="text-foreground/80">
+                {[
+                  ["Preparation", "Centrifuged blood, platelets concentrated", "Further processed, growth factors isolated"],
+                  ["Inflammatory components", "Present (plasma, some WBCs)", "Largely removed"],
+                  ["Growth factor concentration", "Moderate", "Higher"],
+                  ["Clinical track record", "Longer-established", "Newer, growing evidence base"],
+                  ["Typical downtime", "Minimal", "Minimal"],
+                  ["Cost", "Generally lower", "Generally higher"],
+                ].map(([factor, prp, gfc], i) => (
+                  <tr key={factor} className={i < 5 ? "border-b border-border" : undefined}>
+                    <td className="px-5 py-4 font-medium text-foreground">{factor}</td>
+                    <td className="px-5 py-4">{prp}</td>
+                    <td className="px-5 py-4">{gfc}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </Section>
+
+        <Section heading="Which one should you choose?">
+          <p>
+            Neither treatment is universally "better" — the right choice depends on the stage of hair loss, scalp sensitivity, and treatment goals.
+          </p>
+          <ul className="space-y-3 pl-0">
+            {[
+              "Patients with early to moderate thinning and no history of scalp inflammation often do very well with standard PRP, which is more cost-effective for a multi-session protocol.",
+              "Patients who are more sensitive to inflammation, or who want a more concentrated growth-factor dose per session, may benefit more from GFC.",
+              "Both typically require multiple sessions (often 3–6, spaced four to six weeks apart) with maintenance sessions afterward, and results build gradually over several months as follicles respond.",
+            ].map((p) => (
+              <li key={p} className="flex gap-3">
+                <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                <span>{p}</span>
+              </li>
+            ))}
+          </ul>
+          <p>
+            Combining either treatment with a proper diagnostic workup — checking for underlying causes like thyroid issues, iron deficiency, or androgenetic alopecia — significantly improves outcomes, since PRP and GFC work best as follicle stimulators, not as a fix for an untreated underlying condition.
+          </p>
+        </Section>
+
+        <Section heading="The bottom line">
+          <p>
+            PRP and GFC both harness the body's own regenerative signals to support hair growth, but GFC represents a more refined, growth-factor-concentrated version of the same underlying science. The best treatment for you depends on your specific hair loss pattern, scalp condition, and budget — which is best assessed in person.
+          </p>
+          <p className="font-serif text-xl italic text-foreground">
+            Curious which treatment fits your hair loss pattern? Book a scalp and hair assessment with our team to find out whether PRP, GFC, or a combined protocol is right for you.
+          </p>
+        </Section>
+
+        <p className="mt-14 border-l-4 border-sage pl-5 font-serif text-xl italic text-foreground">
+          The right regenerative treatment starts with the right diagnosis — not with the trendier acronym.
+        </p>
+      </>
+    )
   }
 ];

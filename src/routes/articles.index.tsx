@@ -8,9 +8,9 @@ export const Route = createFileRoute("/articles/")({
   head: () => ({
     meta: [
       { title: "Articles — Dr. Sai Preethi's Skin & Aesthetic Clinic" },
-      { name: "description", content: "Evidence-based dermatology articles from Dr. Sai Preethi — pigmentation, lightening creams, melanin, and safe skin care." },
+      { name: "description", content: "Evidence-based dermatology articles from Dr. Sai Preethi — acne, pigmentation, hair care, and safe skin treatments." },
       { property: "og:title", content: "Articles — Dr. Sai Preethi" },
-      { property: "og:description", content: "Reading on skin science, pigmentation, lightening creams, and dermatology in India." },
+      { property: "og:description", content: "Reading on skin science, acne, pigmentation, hair care, and dermatology in India." },
     ],
   }),
   component: ArticlesIndexPage,
