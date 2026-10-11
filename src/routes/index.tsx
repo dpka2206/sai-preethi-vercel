@@ -852,7 +852,7 @@ function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground">
-        <p>© Dr. Sai Preethi's Skin & Aesthetic Clinic | Powered by <a href="https://editcomedia.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Editcomedia</a></p>
+        <p>© Dr. Sai Preethi's Skin & Aesthetic Clinic</p>
         <div className="flex gap-5">
           <a href="#" className="hover:text-primary">Privacy Policy</a>
           <a href="#" className="hover:text-primary">Terms</a>

@@ -111,7 +111,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-wrap items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} Dr. Sai Preethi's Skin & Aesthetic Clinic | Powered by <a href="https://editcomedia.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Editcomedia</a></p>
+        <p>© {new Date().getFullYear()} Dr. Sai Preethi's Skin & Aesthetic Clinic</p>
         <div className="flex gap-5"><Link to="/privacy" className="hover:text-primary">Privacy</Link><Link to="/terms" className="hover:text-primary">Terms</Link></div>
       </div>
     </footer>
